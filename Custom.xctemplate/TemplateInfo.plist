@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Template for MVC styled View Controllers.</string>
+	<key>Summary</key>
+	<string>Template for MVC styled View Controllers.</string>
+	<key>SortOrder</key>
+	<string>30</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Feature</string>
+			<key>Description</key>
+			<string>The name of the feature.</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Default</key>
+			<string></string>
+			<key>SortOrder</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Model</string>
+			<key>Description</key>
+			<string>The name of the model.</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Required</key>
+			<true/>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Default</key>
+			<string></string>
+			<key>SortOrder</key>
+			<string>2</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Type</string>
+			<key>Description</key>
+			<string>The type of View Controller</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Required</key>
+			<true/>
+			<key>Identifier</key>
+			<string>viewControllerType</string>
+			<key>Values</key>
+			<array>
+				<string>List</string>
+				<string>ListTable</string>
+				<string>Detail</string>
+				<string>Form</string>
+			</array>
+			<key>Default</key>
+			<string>List</string>
+			<key>SortOrder</key>
+			<string>5</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>View Controller</string>
+			<key>Description</key>
+			<string>The name of the view controller.</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Required</key>
+			<true/>
+			<key>Identifier</key>
+			<string>viewController</string>
+			<key>Default</key>
+			<string>___VARIABLE_productName______VARIABLE_viewControllerType___ViewController</string>
+			<key>SortOrder</key>
+			<string>4</string>
+		</dict>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+</dict>
+</plist>
