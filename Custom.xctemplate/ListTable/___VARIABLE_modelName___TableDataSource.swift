@@ -2,8 +2,6 @@
 
 import UIKit
 
-import UIKit
-
 class ___VARIABLE_modelName___TableDataSource: NSObject {
     // MARK: - Variables
     private var items: [[___VARIABLE_modelName___]] = []
