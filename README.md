@@ -5,7 +5,11 @@ The goal is to be able to setup new feature screens that are compilable right af
 
 ## Setup
 
-Under construction ⛑
+1. Navigate to `~/Library/Developer/Xcode`
+2. Create the subfolders `Templates/File Templates/`
+3. Clone this repository in `File Templates`
+4. To verify that it's working, open up Xcode and create a new file in a project. Under iOS, scroll all the way down and you should see the `Custom` template
+
 
 ## Table Legend
 
