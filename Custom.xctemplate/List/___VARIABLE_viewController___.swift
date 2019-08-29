@@ -18,6 +18,10 @@ class ___VARIABLE_viewController___: UICollectionViewController {
         self.collectionView.refreshControl = UIRefreshControl()
         self.collectionView.refreshControl?.addTarget(self, action: #selector(self.refresh(_:)), for: .valueChanged)
 
+        if let layout = self.collectionViewLayout as? UICollectionViewFlowLayout {
+            layout.itemSize = CGSize(width: UIScreen.main.bounds.width, height: 50)
+        }
+
         self.refresh(self)
     }
 

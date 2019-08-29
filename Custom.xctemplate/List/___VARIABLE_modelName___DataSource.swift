@@ -49,7 +49,8 @@ class ___VARIABLE_modelName___DataSource: NSObject {
         }
 
         self.isFiltering = true
-//        self.filteredItems = self.items.filter { $0.contains(searchText) }
+        let allItems: [___VARIABLE_modelName___] = self.items.flatMap { $0 }
+        self.filteredItems = [allItems.filter { $0.title?.lowercased().contains(searchText) ?? false }]
     }
 }
 
