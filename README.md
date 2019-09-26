@@ -13,12 +13,24 @@ The goal is to be able to setup new feature screens that are compilable right af
 
 ## Table Legend
 
-| Template Types | Description |
+| Features | Description |
 | --- | --- |
 | List | A UICollectionViewController that displays a list of models. Includes: Local Filtering, optional UISearchController setup |
 | ListTable | A UITableViewController that displays a list of models. Includes: Local Filtering, optional UISearchController setup |
 | Detail | A UIViewController that displays the details of a model |
 | Form | A UIViewController that can be configured to create or edit a model |
+
+## Wishlist / Future Enhancements
+| Category | Description |
+| --- | --- |
+| Architecture | Finite State Machine Templates |
+| Architecture | CLEAN Templates |
+| Architecture | MVVM Templates |
+| Feature | Camera Template |
+| UI | Swift UI Templates |
+| UI | Programatic (no Storyboard) |
+| UI | Storyboard |
+| Others | Helper Methods |
 
 ## Usage
 
